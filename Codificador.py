@@ -1,4 +1,4 @@
-import qrcode # type: ignore
+import qrcode
 
 def criar_qr_code(mensagem, nome_arquivo='qrcode.png'):
     qr = qrcode.QRCode(
